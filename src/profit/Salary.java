@@ -17,9 +17,9 @@ public class Salary {
 	}
 	public void setCompensation(double sell) {
 		double commission = 0;
-		if((sell>=1)&&(sell<=25000))
+		if((sell>=1)&&(sell<=50000))
 			commission = sell*(1.0/100);
-		else if((sell>25000)&&(sell<=50000))
+		else if((sell>50000)&&(sell<=100000))
 			commission = sell*(2.0/100);
 		else
 			commission = sell*(3.0/100);
