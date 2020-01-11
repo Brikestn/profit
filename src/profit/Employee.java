@@ -30,7 +30,7 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee name=" + name + ", emp_id=" + emp_id + ", "+salary.toString();
+		return "Employee name=" + name + ", emp_id = " + emp_id + ", "+salary.toString();
 	}
 	
 }

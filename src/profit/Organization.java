@@ -1,7 +1,7 @@
 package profit;
 import java.util.ArrayList;
 public class Organization {
-	public String organizationName;
+	public String organizationName=null;
 	public ArrayList<Employee> emp;
 	public Organization() {
 		emp = new ArrayList<Employee>();
@@ -29,6 +29,7 @@ public class Organization {
 	}
 	public String getEmp() {
 		String s ="";
+		System.out.println("This company name's "+organizationName);
 		for(int i=0;i<emp.size();i++) {
 			s+="\n"+emp.get(i).toString();
 		}
