@@ -24,7 +24,9 @@ public class Salary {
 		else
 			commission = sell*(3.0/100);
 		compensation += commission;
-		
+		if((salary<15000)&(sell>100000)) {
+			compensation+=3000;
+		}
 	}
 	@Override
 	public String toString() {
